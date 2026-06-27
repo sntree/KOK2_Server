@@ -1,7 +1,7 @@
-需要在电脑上建一个210.209.17.129的虚拟网卡，用windows自带的Microsoft Loopback Adapter：
+**需要在电脑上建一个210.209.17.129的虚拟网卡，用windows自带的Microsoft Loopback Adapter：**
 
 
-第一步：添加 Windows 自带虚拟网卡
+**第一步：添加 Windows 自带虚拟网卡**
 
 按：
 
@@ -20,7 +20,7 @@ hdwwiz
 安装完成后，你会多一个虚拟网卡。
 
 
-第二步：给虚拟网卡改名
+**第二步：给虚拟网卡改名**
 
 打开 PowerShell：
 
@@ -41,7 +41,7 @@ Rename-NetAdapter -Name "Ethernet 2" -NewName "KOK2Loopback"
 如果名字不同，把"Ethernet 2"换成实际名字。
 
 
-第三步：给 Loopback 网卡添加旧服务器 IP
+**第三步：给 Loopback 网卡添加旧服务器 IP**
 
 管理员 PowerShell：
 
