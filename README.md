@@ -1,4 +1,4 @@
-**需要在电脑上建一个210.209.17.129的虚拟网卡，用windows自带的Microsoft Loopback Adapter：**
+**需要在电脑上建一个210.209.17.129的虚拟网卡，用Win10自带的Microsoft Loopback Adapter：**
 
 
 **第一步：添加 Windows 自带虚拟网卡**
